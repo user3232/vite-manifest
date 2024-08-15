@@ -1,4 +1,7 @@
-#!/usr/bin/env -S npx tsx
+#!/usr/bin/env node
+
+// this file can be also run directly (without transpiling) using:
+// #!/usr/bin/env -S npx tsx
 
 
 import fs from 'node:fs/promises'
