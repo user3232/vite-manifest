@@ -1,20 +1,21 @@
 {
-  "name": "@user3232/flatten-vite-manifest",
-  "version": "1.0.2",
-  "description": "CLI/API for flattening vite manifest.",
+  "name": "@user3232/vite-manifest",
+  "version": "1.1.0",
+  "description": "CLI/API for working with vite manifest.",
   "keywords": ["vite", "manifest", "json"],
   "author": "Michal Kołodziej, kolodziej.michal at gmail.com",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+file:///home/mk/github/tutorials/flatten-vite-manifest"
+    "url": "git+https://github.com/user3232/vite-manifest"
   },
   "type": "module",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
       "import": "./lib/index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "package.json",
@@ -23,7 +24,7 @@
     "README.md"
   ],
   "bin": {
-    "flatten-vite-manifest": "./lib/cli.js"
+    "vite-manifest": "./lib/cli.js"
   },
   "engines": {
     "node": ">=18"
